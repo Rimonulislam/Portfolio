@@ -8,12 +8,15 @@
 
 header {
     background-color: #FFF8F3;
+    background: url("../images/developer.png") , url("../images/header_bg.png") ,  #FFF8F3 ;
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
     padding-top: 50px;
 }
 
 .open-sans-fonts {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .display-flex {
@@ -41,7 +44,7 @@ header {
     list-style-type: none;
 }
 
-.logo h2{
+.logo h2 {
     font-weight: 900;
     font-size: 45px;
     color: #181818;
@@ -60,4 +63,51 @@ header {
     color: #FFFFFF;
     background-color: #FD6E0A;
     font-size: 20px;
+    cursor: pointer;
+}
+
+.hero-section {
+    justify-content: space-between;
+    align-items: center;
+    margin: 46px 38px 0px 230px;
+}
+
+.hero-section .hero-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.hero-section .hero-content h1 {
+    font-size: 85px;
+    font-weight: 900;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.hero-section .hero-content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.hero-section .hero-image img {
+    max-width: 584px;
+    vertical-align: middle;
+}
+
+.hero-content {
+    max-width: 585px;
+}
+
+.hero-btn {
+    gap: 30px;
+}
+
+.btn-2 {
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
 }
